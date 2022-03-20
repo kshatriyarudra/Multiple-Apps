@@ -1,24 +1,27 @@
 <html>
     <head>
         <title>My First Hand at Frontend</title>
+        <!-- below href is for google fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <!-- header is given area for apps button -->
         <div id="header">
             <button id="addFolder">Add Folder</button>
             <button id="addTextFile">Add Text File</button>
             <button id="addAlbum">Add Album</button>
         </div>
-
+        <!-- breadcrumb is for the path of the app -->
         <div id="breadcrumb">
             <a purpose="path" rid="-1">Root</a>
         </div>
-
+        <!-- container is for the area of folders,text-file etc. -->
         <div id="container">
         </div>
-
+        <!-- app details are in this divison -->
         <div id="app">
+            <!-- this divison is for title to the app -->
             <div id="app-title-bar">
                 <div id="app-title">title will come here</div>
                 <div id="win-actions">
@@ -27,12 +30,16 @@
                     <span id="app-close" class="material-icons">close</span>
                 </div>
             </div>
+            <!-- this divison is for app menu bar like save, upload, delete etc. -->
             <div id="app-menu-bar">
                 
             </div>
+            <!-- this divison is for the purpose of body for the app  -->
             <div id="app-body"></div>
         </div>
 
+        <!-- In templates, all the actions are being present for the folders, text-files etc. 
+        for more google fonts go to google fonts. -->
         <template id="templates">
             <div class="folder" rid="" pid="">
                 <span action="rename">rename</span>
@@ -113,6 +120,7 @@
                 </div>
             </div>
         </template>
+        <!-- below script is for link the javascript file -->
         <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
