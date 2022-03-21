@@ -39,5 +39,5 @@ Objective:
       x. cursor: pointer etc.
      
    b. For use of tags, we have to take care so that right things were being selected like as '#' was used for id, '.' was used for class etc.
-9. Combination of all the points was good for the output and for more information please went through the codes.
+9. Combination of all the points was good for the output and for more information please go through the codes.
     
